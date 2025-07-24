@@ -1,0 +1,29 @@
+{
+  "name": "hls-adaptive-bitrate-streaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A158-debug/Video-Transcoding-Service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/A158-debug/Video-Transcoding-Service/issues"
+  },
+  "homepage": "https://github.com/A158-debug/Video-Transcoding-Service#readme",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.848.0",
+    "@aws-sdk/client-s3": "^3.848.0",
+    "@aws-sdk/client-sqs": "^3.848.0",
+    "dotenv": "^17.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "uuid": "^11.1.0"
+  }
+}
